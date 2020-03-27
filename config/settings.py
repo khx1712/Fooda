@@ -131,5 +131,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSED': ('knox.auth.TokenAuthentication',)
+    'DEFAULT_AUTHENTICATION_CLASSED': ("knox.auth.TokenAuthentication",),
 }
+
+MEDIA_URL = '/image/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'image')
