@@ -26,7 +26,7 @@ class RestaurantAPI(APIView):
         serializer = UserRestSerializer(restaurant)
         return Response(serializer.data)
 
-
+#
 class FolderDetailAPI(APIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = [
@@ -38,12 +38,23 @@ class FolderDetailAPI(APIView):
         serializer = FolderDetailSerializer(folders)
         return Response(serializer.data)
 
+    def post(self, request, *args, **kwargs):
+        serializer = RestaurantDetailSerializer(data=request.data)
+
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+
 class RestaurantDetailAPI(APIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = [
         permissions.IsAuthenticated
     ]
 
+    # 조건에 해당하는 인스턴스가 있는지 찾아주고 있으면 리턴해준다.
     def get_object(self, pk):
         try:
             return Restaurant.objects.get(id=pk)

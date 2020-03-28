@@ -51,3 +51,10 @@ class FolderDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Folder
         fields = ['id', 'name', 'restaurants']
+
+
+class CreateFolderSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Folder
+        fields = '__all__'

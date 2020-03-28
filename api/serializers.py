@@ -14,6 +14,7 @@ class CreateUserSerializer(serializers.ModelSerializer):
         )
         return user
 
+
 # 접속 유지중인지 확인
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
