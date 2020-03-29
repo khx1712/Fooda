@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d131829-a62a-497a-8cab-72aebdf954aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/image/2020/03/29/480990c14de8420aa4bebddb6d8b0277_2_Qu5bCyr.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2020/03/29/e77f255926f74670ba0ba845c6363414_20_d48pOjw.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1/restaurant/승찬고기.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1/restaurant/채명닭갈비.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1/restaurant/채명돈까스.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

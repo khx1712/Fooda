@@ -2,26 +2,22 @@ from map.models import RestImage, Restaurant, Folder
 from rest_framework import serializers
 from django.contrib.auth.models import User
 
+
 class RestImgSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = RestImage
-        fields = ['file_save_name']
+        fields = ['file_save_name', 'file_origin_name']
+
 
 class RestaurantSerializer(serializers.ModelSerializer):
-    """
-    restimages = serializers.HyperlinkedRelatedField(
-        many=True,
-        read_only=True,
-        view_name='image-url'
-    )
-    """
-    #urls = RestImgSerializer()
+    restimages = RestImgSerializer(many=True, read_only=True)
 
     class Meta:
         model = Restaurant
-     #   fields = ['id', 'name', 'urls']
-        fields = ['id', 'name']
+        fields = ['id', 'name', 'restimages']
+    #    fields = ['id', 'name']
+
 
 class FolderSerializer(serializers.ModelSerializer):
     restaurants = RestaurantSerializer(many=True, read_only=True)
@@ -29,6 +25,7 @@ class FolderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Folder
         fields = ['id', 'name', 'restaurants']
+
 
 class UserRestSerializer(serializers.ModelSerializer):
     folders = FolderSerializer(many=True, read_only=True)
@@ -39,18 +36,24 @@ class UserRestSerializer(serializers.ModelSerializer):
 
 
 class RestaurantDetailSerializer(serializers.ModelSerializer):
+    restimages = RestImgSerializer(many=True, read_only=True)
 
     class Meta:
         model = Restaurant
         fields = '__all__'
 
+class RestImgDetailSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = RestImage
+        fields = '__all__'
+
 
 class FolderDetailSerializer(serializers.ModelSerializer):
-    restaurants = RestaurantDetailSerializer(many=True, read_only=True)
 
     class Meta:
         model = Folder
-        fields = ['id', 'name', 'restaurants']
+        fields = '__all__'
 
 
 class CreateFolderSerializer(serializers.ModelSerializer):
