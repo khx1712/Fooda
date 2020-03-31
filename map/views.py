@@ -3,6 +3,7 @@ from rest_framework import permissions, status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.http import Http404
+from knox.models import AuthToken
 from .serializers import RestaurantSerializer, RestImgDetailSerializer, FolderDetailSerializer, UserRestSerializer, RestaurantDetailSerializer, FolderSerializer
 from .models import Restaurant, RestImage, Folder
 from knox.auth import TokenAuthentication
@@ -30,8 +31,8 @@ class FolderAPI(APIView):
         permissions.IsAuthenticated
     ]
 
-    def get(self, request, pk):
-        folders = Folder.objects.get(id=pk)
+    def get(self, request, folder_id):
+        folders = Folder.objects.get(id=folder_id)
         serializer = FolderSerializer(folders)
         return Response(serializer.data)
 

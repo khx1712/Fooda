@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'api',
     'rest_framework',
+    'rest_framework_swagger',
     'knox',
     'map',
 ]
@@ -136,3 +137,15 @@ REST_FRAMEWORK = {
 
 MEDIA_URL = '/image/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'image')
+
+SWAGGER_SETTINGS ={
+    'SECURITY_DEFINITIONS': {
+        "api_key": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        },
+    },
+    "LOGIN_URL": "/admin/login",
+    "LOGOUT_URL": "/admin/logout"
+}

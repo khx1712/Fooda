@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d131829-a62a-497a-8cab-72aebdf954aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image/2020/03/29/480990c14de8420aa4bebddb6d8b0277_2_Qu5bCyr.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/2020/03/29/e77f255926f74670ba0ba845c6363414_20_d48pOjw.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2020/03/31/40c7f6ec6eb64a48a268740e8b1038fb_2_qGA1CF5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/views.py" afterDir="false" />
     </list>
