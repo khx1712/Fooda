@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d131829-a62a-497a-8cab-72aebdf954aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/2020/03/31/40c7f6ec6eb64a48a268740e8b1038fb_2_qGA1CF5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/map/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled1" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -106,18 +101,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584583915556" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1585235203803">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1586158039849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585235203803" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586158039849" />
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1585886314809">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585886314809" />
+    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1585886314809">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585886314809" />
+    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1585886314809">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585886314809" />
+    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1585886314809">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585886314809" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1585886314810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585886314810" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1585886314809">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585886314809" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1585886314809">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585886314809" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1585886314810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585886314810" />
     <state x="575" y="135" key="RollbackChangesDialog" timestamp="1582880979124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="575" y="135" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582880979124" />
-    <state x="82" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1585357129808">
+    <state x="82" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1586261370753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="82" y="248" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585357129808" />
+    <state x="82" y="248" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586261370753" />
+    <state x="337" y="149" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585886303353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="337" y="149" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1585886303353" />
+    <state x="459" y="143" width="618" height="538" key="find.popup" timestamp="1586101365439">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="459" y="143" width="618" height="538" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1586101365439" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585377209894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

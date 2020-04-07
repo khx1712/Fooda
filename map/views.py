@@ -1,5 +1,5 @@
 import os
-from rest_framework import permissions, status
+from rest_framework import permissions, status, generics
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.http import Http404
@@ -38,11 +38,14 @@ class FolderAPI(APIView):
 
 
 #
+
 class FolderDetailAPI(APIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = [
         permissions.IsAuthenticated
     ]
+    serializer_class = FolderDetailSerializer
+
 
     def get_object(self, folder_id):
         try:
